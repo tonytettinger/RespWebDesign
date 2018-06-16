@@ -1,0 +1,18 @@
+//main
+
+main {
+    
+    figure.photo {
+        width: 50% -$gutterdbl;
+        float: left;
+    }
+    
+    div.blog article{
+        width: 50%-$gutterdbl;
+        float: left;
+    }
+    div.blog article:nth-child(2n+1) {
+        clear: left;
+    }
+    
+}
